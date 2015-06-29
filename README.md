@@ -50,7 +50,7 @@ HipChat for new messages every 10 seconds (hipchat has
 a default rate limit of 100 API calls every 5 minutes, every 10 seconds gives some wiggle room).
 
 Note that the room is a `hypchat` room object, and exposes the methods
-defined in the ![room class](https://github.com/RafTim/HypChat/blob/master/hypchat/restobject.py#L118).
+defined in the [room class](https://github.com/RafTim/HypChat/blob/master/hypchat/restobject.py#L118).
 
 ## Non-Reactive "Plugins"
 
