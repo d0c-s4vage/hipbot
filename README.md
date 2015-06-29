@@ -5,6 +5,20 @@ A simple HipChat bot that exposes two "plugin" methods:
 * reactive - processes any new messages in the subscribed rooms
 * non-reactive - gets called every 10 seconds
 
+# Installation
+
+`hipbot` can be installed directly from git via
+
+	pip install -e git+https://github.com/d0c-s4vage/hipbot.git#egg=hipbot
+
+Also note that you can put
+
+	-e git+https://github.com/d0c-s4vage/hipbot.git#egg=hipbot
+
+in a `requirements.txt` file as well
+
+# Usage
+
 ## Reactive "Plugins"
 
 A reactive "plugin" is simply a callable that has the signature below and processes new
