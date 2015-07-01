@@ -31,7 +31,7 @@ setup(
 		"pyasn1",
 	],
 	dependency_links = [
-		"git+ssh://git@github.com/d0c-s4vage/HypChat.git#egg=hypchat-9.9.9"
+		"git+https://github.com/d0c-s4vage/HypChat.git#egg=hypchat-9.9.9"
 	],
     classifiers = [
         'Programming Language :: Python :: 2',
