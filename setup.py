@@ -30,6 +30,9 @@ setup(
 		"ndg-httpsclient",
 		"pyasn1",
 	],
+	dependency_links = [
+		"https://github.com/d0c-s4vage/HypChat.git#egg=hypchat"
+	],
     classifiers = [
         'Programming Language :: Python :: 2',
 		# untested

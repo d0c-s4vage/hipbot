@@ -1,0 +1,7 @@
+-e git+https://github.com/d0c-s4vage/HypChat.git#egg=hypchat
+python-dateutil
+pyopenssl
+ndg-httpsclient
+pyasn1
+certifi
+pytz
