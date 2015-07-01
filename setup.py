@@ -22,7 +22,7 @@ setup(
     url='https://github.com/d0c-s4vage/hipbot',
     platforms='Cross Platform',
 	install_requires = [
-		"hypchat",
+		"hypchat==9.9.9",
 		"pytz", 
 		"python-dateutil",
 		# for ssl-connections
@@ -31,7 +31,7 @@ setup(
 		"pyasn1",
 	],
 	dependency_links = [
-		"https://github.com/d0c-s4vage/HypChat.git#egg=hypchat"
+		"https://github.com/d0c-s4vage/HypChat.git#egg=hypchat-9.9.9"
 	],
     classifiers = [
         'Programming Language :: Python :: 2',
